@@ -1,0 +1,204 @@
+.bannav {
+    text-decoration: none;
+    color: black;
+}
+
+#tright {
+    float: right;
+    margin: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.pabout {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+p {
+    font-size: 15px;
+}
+
+hr {
+    border: 2px solid rgba(220, 220, 220, 0.5);
+}
+
+#divC {
+    text-align: center;
+}
+
+#Regi {
+    display: inline-block;
+    margin: 40px;
+    
+}
+
+.Fleft {
+    float: left;
+}
+
+.Fright {
+    float: right;
+}
+
+input {
+    padding: 20px;
+    width: 400px;
+    margin: 20px 10px;
+    border-radius: 10px 10px;
+    background-color: rgba(220, 220, 220, 0.5);
+    border-style: none;
+}
+
+#suby {
+    width: 60px;
+    margin-top: 0px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: fit-content;
+    font-size: 15px;
+}
+
+.fline {
+    border-color: white;
+    text-align: left;
+    margin-left: 0px;
+    width: 30%;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: fit-content;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer,div,div,p {
+    text-align: left;
+}
+
+.flink {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+#cprt {
+    text-align: center;
+}
+
+#req {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+#email2 {
+    width: 100%;
+    padding: 15px;
+}
+
+#rest2 {
+    width: 100%;
+    padding: 15px;
+}
+
+::placeholder {
+    font-size: 13px;
+}
+
+.inline-radio {
+    display: inline-block;
+    background: lightgray;
+    text-align: center;
+    border-radius: 5px;
+    width: 18%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.radio-align {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+h5 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px;
+}
+
+.total {
+    padding: 3em;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.req1 {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 20px;
+}

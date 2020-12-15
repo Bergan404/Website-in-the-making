@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Foodar</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="index.html">
+            <img style="background-position: top left;" src="pictures/logo.png" alt="Foodar logo"> <!-- top left side of page -->    
+        </a> 
+        <h1>Request</h1>
+        <hr>
+        <section id="req">
+            <p style="padding-bottom: 20px;">Please fill out the form below:</p>
+            <div>
+                <p><strong>Email:</strong></p>
+                    <input id="email2" type="email" name="email" placeholder="Email">
+                <p><strong>Restaurant</strong></p>
+                    <input id="rest2" type="text" name="restaurant" placeholder="Restaurant">
+            </div>
+        </section>
+        <h5>Choose Your Style:</h5>
+        <div class="radio-align">
+            <div class="inline-radio">
+                <label for="style">Classic</label>
+                <input class="food-style" type="radio" name="style" value="3">
+            </div>
+            <div class="inline-radio">
+                <label for="style">Premium</label>
+                <input class="food-style" type="radio" name="style" value="5">
+            </div>
+            <div class="inline-radio">
+                <label for="style">Royal</label>
+                <input class="food-style" type="radio" name="style" value="10">
+            </div>
+        </div>
+        <h5>Add Tip:</h5>
+        <div class="radio-align">
+            <div class="inline-radio">
+                <label for="style">10%</label>
+                <input class="food-tip" type="radio" name="style" value="10">
+            </div>
+            <div class="inline-radio">
+                <label for="style">15%</label>
+                <input class="food-tip" type="radio" name="style" value="15">
+            </div>
+            <div class="inline-radio">
+                <label for="style">20%</label>
+                <input class="food-tip" type="radio" name="style" value="20">
+            </div>
+            <div class="total">
+                <h2>
+                    Total: $
+                    <span id="total"></span>
+                </h2>
+                <input type="submit" class="req1" value="REQUEST">
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+				<div class="column">
+                    <h3>Sitemap</h3>
+                    <hr class="fline">
+                    <p><a class="flink" href="index.html">Home</a></p>
+					<p><a class="flink" href="register.html">Register</a></p>
+					<p><a class="flink" href="about.html">How it all works</a></p>
+				</div>
+				<div class="column">
+                    <h3>Legal</h3>
+                    <hr class="fline">
+					<p><a class="flink" href="#">Privacy Policy</a></p>
+					<p><a class="flink" href="#">Terms and Conditions</a></p>
+				</div>
+				<div class="column">
+                    <h3>Lucky you :)</h3>
+                    <hr class="fline">
+                </div>
+			  </div>
+            <p id="cprt">&copy;2019. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
